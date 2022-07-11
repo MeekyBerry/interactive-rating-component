@@ -9,7 +9,7 @@ const NumberSelected = () => {
         let digit = selected.textContent;
 
         selected.addEventListener('click', (e) => {
-            selected.style.backgroundColor = 'hsl(216, 12%, 54%)';
+            selected.style.backgroundColor = 'hsl(0, 0%, 100%)';
             CONFIRMATION_MSG.textContent = `You selected ${digit} out of 5`;
         })
     })
